@@ -1,0 +1,173 @@
+# ==========================================
+
+# C++ Library Management System - .gitignore
+
+# ==========================================
+
+# ------------------------------------------
+
+# Compiled executables
+
+# ------------------------------------------
+
+*.exe
+*.out
+*.app
+
+# ------------------------------------------
+
+# Object files
+
+# ------------------------------------------
+
+*.o
+*.obj
+*.a
+*.lib
+
+# ------------------------------------------
+
+# Debugging files
+
+# ------------------------------------------
+
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# ------------------------------------------
+
+# Build directories
+
+# ------------------------------------------
+
+build/
+bin/
+Debug/
+Release/
+.vs/
+
+# ------------------------------------------
+
+# VS Code
+
+# ------------------------------------------
+
+.vscode/*.log
+
+# Keep VS Code project configuration
+
+# Uncomment these if you do NOT want to
+
+# upload VS Code configuration to GitHub:
+
+#
+
+# .vscode/
+
+# .vscode/tasks.json
+
+# .vscode/launch.json
+
+# .vscode/c_cpp_properties.json
+
+# ------------------------------------------
+
+# CMake
+
+# ------------------------------------------
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# ------------------------------------------
+
+# Temporary files
+
+# ------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ------------------------------------------
+
+# Operating system files
+
+# ------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------
+
+# IDE files
+
+# ------------------------------------------
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ------------------------------------------
+
+# Compiler-generated files
+
+# ------------------------------------------
+
+*.gcda
+*.gcno
+*.gcov
+
+# ------------------------------------------
+
+# Library Management System generated data
+
+# ------------------------------------------
+
+# Uncomment these if you do NOT want to
+
+# upload locally generated library data:
+
+#
+
+# data/books.txt
+
+# data/students.txt
+
+# data/issued_books.txt
+
+#
+
+# Or ignore all data files:
+
+# data/*.txt
+
+# ------------------------------------------
+
+# Logs
+
+# ------------------------------------------
+
+*.log
+logs/
+
+# ------------------------------------------
+
+# Crash dumps
+
+# ------------------------------------------
+
+*.dmp
+*.stackdump
